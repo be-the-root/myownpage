@@ -29,5 +29,19 @@ body{
     align-items: center;
     align-content: center;
     font-size: large;
-    
+
+}
+.pfp{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    justify-content: center;
+    justify-self: center;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    object-fit: cover;
+    object-position: center;
+    border: 3px solid aqua;
+
 }
