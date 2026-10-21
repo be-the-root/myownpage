@@ -1,0 +1,33 @@
+body{
+    min-height: 100vh;
+    background:linear-gradient(black , rgb(61, 61, 61) , black) ;
+    background-attachment: fixed;
+
+    margin: 0;
+    border: 0;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+
+
+}
+.head{
+    color: white;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    font-family: monospace;
+    font-size: xx-large;
+    text-transform: uppercase;
+
+
+}
+.para , .para2 , .para3{
+    color: white;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-size: large;
+    
+}
