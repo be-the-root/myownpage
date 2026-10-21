@@ -1,0 +1,57 @@
+body{
+    min-height: 100vh;
+    background:linear-gradient(black , rgb(17, 17, 17), black) ;
+    background-attachment: fixed;
+
+    margin: 0;
+    border: 0;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+
+
+}
+.line{
+    width: 100%;
+    margin: 20px;
+    margin-left: 0;
+    margin-right: 0;
+}
+.head{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: xx-large;
+    font-family: monospace;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+
+
+}
+.img{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 20px;
+
+}
+.para{
+    color: white;
+    margin: 20px;
+
+}
+.para2{
+    color: white;
+    margin: 20px;
+    font-size: larger;
+
+}
+.para3{
+    color: white;
+    margin: 20px;
+ 
+    text-transform: uppercase;
+    font-weight: 700
+
+}
