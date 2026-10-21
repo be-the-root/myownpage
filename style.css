@@ -57,4 +57,27 @@ body{
 
     
 }
+.btn{
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 30px;
+    border: solid rgb(71, 71, 71) ;
+    background: linear-gradient( black, rgb(20, 20, 20), rgb(0, 0, 0));
+
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    
+}
+.btn:hover{
+    border-color: aqua;
+    
+}
+
 
