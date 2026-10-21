@@ -1,6 +1,6 @@
 body{
     min-height: 100vh;
-    background:linear-gradient(black , rgb(61, 61, 61) , black) ;
+    background:linear-gradient(black , rgb(17, 17, 17) , black) ;
     background-attachment: fixed;
 
     margin: 0;
