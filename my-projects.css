@@ -67,5 +67,5 @@ body{
 }
 
 .btn:hover{
-    border: 2px solid green;
+    border: 2px solid rgb(0, 255, 242);
 }
