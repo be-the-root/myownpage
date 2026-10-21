@@ -29,7 +29,10 @@ body{
     align-items: center;
     align-content: center;
     font-size: large;
-
+    justify-self: center;
+    align-self: center;
+    display: flex;
+    
 }
 .pfp{
     width: 120px;
@@ -45,3 +48,13 @@ body{
     border: 3px solid aqua;
 
 }
+.pfp:hover{
+    border-color: rgb(21, 255, 0);
+    box-shadow: 
+    0 0 8px rgb(21, 255, 0),
+    0 0 24px rgba(14, 104, 0, 0.582),
+    0 0 43px rgb(22 , 155 , 0) ;
+
+    
+}
+
