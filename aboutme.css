@@ -33,3 +33,20 @@ font-size: xx-large;
     font-size: larger;
     font-weight: 700;
 }
+.btn{
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    border-radius: 7px;
+    background-color: rgb(83, 83, 83);
+}
+.btn:hover{
+    border-color: cyan;
+    color: aqua;
+}
