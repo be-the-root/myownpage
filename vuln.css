@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    border: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+
+
+
+}
+.head{
+    text-transform: uppercase;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    font-size: larger;
+    margin: 20px;
+    letter-spacing: 10px;
+    color: white;
+
+}
+.line{
+    color: white;
+    width: 100%;
+
+}
+.head2{
+    margin: 20px;
+    text-transform: capitalize;
+    color: white;
+    letter-spacing: 10px;
+    font-weight: 600;
+    font-style: italic;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    
+
+}
+.para{
+    margin: 20px;
+    color: white;
+
+
+}
+.para1{
+    color: white;
+    margin: 20px;
+}
