@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="vuln.css">
+</head>
+<body>
+    <div class="head">
+        <h1>
+            tested a vpn network
+        </h1>
+    </div>
+    <hr class="line">
+
+    <div class="head2">
+        <h2>
+            part 1
+        </h2>
+
+        
+    </div>
+
+    <div class="para1">
+
+        <p1>
+            i got vpn access to a corprate network (i wont tell the name for privecy reason) so i thought why not run a test and that what exatly i did
+
+        </p1>
+
+        <div></div>
+
+        <p1>
+            goal: find something good and report it
+
+        </p1>
+
+    </div>
+
+    <div class="scope">
+
+        <p1> scope -25 internal hosts, web data base services</p1>
+    </div>
+
+    <div class="head2">
+
+        <h1>big find</h1>
+    </div>
+
+    <div class="para">
+        <p1>while scaning the servers, i found port 8009 open on all of 5 servers , thats a  AJP connecter for apache tomcat - protocol designed for internal use that sholud NEVER be exposed to users 
+
+
+
+        </p1>
+
+
+        <hr class="line">
+
+        <p1>so i found ouut that it is tomcat 8.0.30 (end of life since 2018 lol) and the ajp is exposed to vpn segment
+            so i did some research (basically seached up for any cve) and fund out that its affected to CVE-2020-1938 
+            i confirmed it (it works yeyeyeye)
+        </p1>
+
+        <hr class="line">
+
+        <h2>what i did</h2>
+        <div>
+
+        </div>
+
+        <p1>
+        i sent a malicious ajp requst and got back some good things!!(web-inf/web.xml) a file that should never be accessible without auth
+        i confirmed the file read on all 5 hosts. on these servers , file was just the default tomcat config, but if applications were deployed , credentials and secreats would be exposed
+        </p1>
+    </div>
+
+    <div class="head2">
+        <h2>second big find</h2>
+    </div>
+
+    <div class="para">
+
+        <p1>two mysql servers (virsion 5.6.51, end of life since 2021) accepted unencrypeted connection lol
+
+        </p1>
+        <div></div>
+
+        <p1>i ran a packet capture while attempting to log in , then extraacted the authentication handshake from the capture</p1>
+
+        <div>
+
+        </div>
+
+        <p1>heheh and i found out username transmitted in plain text !!!! plain text???!!! and a password hash captured and anyone on the vpn can do this shit</p1>
+
+        <h3>this both vuln is p2 means its priorty two and its really urgent to solve this </h3>
+    </div>
+
+
+
+</body>
+</html>
