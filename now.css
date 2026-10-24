@@ -9,5 +9,20 @@ body{
 }
 .head{
     color: white;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+.line{
+    width: 100%;
+    color: white;
+}
+.para{
+    color: white;
+    letter-spacing: 5px;
+    line-height: 25px;
+    margin: 20px;
     
+
 }
