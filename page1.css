@@ -55,3 +55,24 @@ body{
     font-weight: 700
 
 }
+.btn{
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+    border: 2px solid white;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+
+
+}
+.btn:hover{
+    border-color: aqua;
+    
+}
