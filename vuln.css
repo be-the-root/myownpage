@@ -47,3 +47,22 @@ body{
     color: white;
     margin: 20px;
 }
+.btn{
+    margin: 20px;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    text-transform: uppercase;
+    letter-spacing: 12px;
+
+}
+.btn:hover{
+    border-color: aqua;
+}
