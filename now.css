@@ -23,6 +23,25 @@ body{
     letter-spacing: 5px;
     line-height: 25px;
     margin: 20px;
-    
+
+
+}
+.btn{
+    color: white;
+    margin: 20px;
+    border: 2px solid white;
+    border-radius: 7px;
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+
+}
+.btn:hover{
+    border-color: cyan;
 
 }
