@@ -1,0 +1,49 @@
+body{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    border: 0;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.head{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 20px;
+    letter-spacing: 10px;
+    font-size: larger
+
+}
+.line{
+    width: 100%;
+    color: white;
+}
+.para{
+    color: white;
+    letter-spacing: 5px;
+    line-height: 20px;
+    margin: 20px;
+
+}
+.btn{
+    color: white;
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 20px;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+
+}
+.btn:hover{
+    border-color: cyan;
+}
