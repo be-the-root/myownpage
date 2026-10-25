@@ -63,7 +63,7 @@ body{
     margin: 20px;
     letter-spacing: 7px;
     border-radius: 10px;
-    background: linear-gradient(black , rgb(36, 35, 35) , black);
+    background-color: black;
 }
 
 .btn:hover{
@@ -82,4 +82,16 @@ body{
     color: white;
     margin: 20px;
     
+}
+.head4{
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    letter-spacing: 25px;
+}
+.para3{
+    color: white;
+    margin: 20px;
+
 }
