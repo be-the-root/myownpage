@@ -44,7 +44,7 @@ font-size: xx-large;
     display: flex;
     justify-content: center;
     border-radius: 7px;
-    background-color: rgb(83, 83, 83);
+    background-color:black;
 }
 .btn:hover{
     border-color: cyan;
