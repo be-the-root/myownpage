@@ -69,3 +69,17 @@ body{
 .btn:hover{
     border: 2px solid rgb(0, 255, 242);
 }
+.head3{
+    color: white;
+    display: flex;
+    justify-content: center;
+    letter-spacing: 7px;
+    text-transform: capitalize;
+    margin: 20px;
+
+}
+.para4{
+    color: white;
+    margin: 20px;
+    
+}
